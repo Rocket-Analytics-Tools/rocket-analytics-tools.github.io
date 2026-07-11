@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket Analytics Tools — Rocket League Performance Analyzers 2026</title>
+    <meta name="description" content="Advanced performance analysis and telemetry tools for Rocket League. Improve your gameplay with real-time tracking, aim assist, and visual overlays." />
+    <link rel="canonical" href="https://rocket-analytics-tools.github.io/" />
+
+    <meta property="og:title" content="Rocket Analytics Tools" />
+    <meta property="og:description" content="Collection of performance analyzers and telemetry overlays for Rocket League." />
+    <meta property="og:url" content="https://rocket-analytics-tools.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #12121a, #1a1a24);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #2a2a3a;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            border-left: 3px solid #8b5cf6;
+            padding-left: 16px;
+        }
+        .badge {
+            display: inline-block;
+            background: #8b5cf6;
+            color: #fff;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-right: 8px;
+        }
+        .badge-green { background: #22c55e; }
+        .card {
+            background: #1a1a2a;
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a3e;
+            transition: all 0.3s;
+        }
+        .card:hover {
+            border-color: #8b5cf6;
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.1);
+        }
+        .card h2 {
+            font-size: 1.6rem;
+            color: #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .card h2 a {
+            background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        .card p { color: #94a3b8; margin: 8px 0; }
+        .card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+        .card .feature-tag {
+            background: #1e1e2e;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            color: #94a3b8;
+            border: 1px solid #2a2a3e;
+        }
+        .card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        .card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+        }
+        .footer-meta {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #475569;
+            text-align: center;
+            border-top: 1px solid #1e1e2a;
+            padding-top: 20px;
+        }
+        .top-nav {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+        .top-nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .top-nav a:hover {
+            color: #8b5cf6;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px; }
+            h1 { font-size: 1.8rem; }
+            .card h2 { font-size: 1.3rem; }
+            .top-nav { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-nav">
+            <a href="https://rocket-analytics-tools.github.io/">Home</a>
+            <a href="https://rocket-analytics-tools.github.io/about.html">About</a>
+        </div>
+        <h1>⚡ ROCKET ANALYTICS TOOLS</h1>
+        <div class="subtitle">
+            <span class="badge">COLLECTION</span>
+            <span class="badge badge-green">OPEN SOURCE</span>
+            Performance Analyzers 2026
+        </div>
+        <p style="color: #cbd5e1; margin-bottom: 30px;">
+            A collection of advanced performance analysis and telemetry tools for Rocket League.
+            Each tool provides real-time tracking, visual overlays, and gameplay improvement features.
+        </p>
+
+        <div class="card">
+            <h2><a href="https://rocket-analytics-tools.github.io/visualsgg/">⚡ VISUALS.GG</a></h2>
+            <p>Clean and focused performance analyzer with detailed ESP for ball prediction, car positions, boost pads, and opponent mechanics.</p>
+            <div class="features">
+                <span class="feature-tag">Ball Prediction</span>
+                <span class="feature-tag">Car ESP</span>
+                <span class="feature-tag">Boost Pad Tracking</span>
+                <span class="feature-tag">Custom Overlays</span>
+            </div>
+            <a class="btn" href="https://rocket-analytics-tools.github.io/visualsgg/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://rocket-analytics-tools.github.io/prism/">⚡ PRISM</a></h2>
+            <p>Premium performance analyzer with intelligent AI-assisted mechanics, precise aerial and ground shot prediction, and smart boost management.</p>
+            <div class="features">
+                <span class="feature-tag">AI-Assisted Mechanics</span>
+                <span class="feature-tag">Shot Prediction</span>
+                <span class="feature-tag">Boost Management</span>
+                <span class="feature-tag">Car Control</span>
+            </div>
+            <a class="btn" href="https://rocket-analytics-tools.github.io/prism/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://rocket-analytics-tools.github.io/crown-ai/">⚡ CROWN AI</a></h2>
+            <p>Premium AI-powered performance analyzer with advanced car control assistance, predictive aerials, smart boost management, and defensive positioning.</p>
+            <div class="features">
+                <span class="feature-tag">Car Control AI</span>
+                <span class="feature-tag">Predictive Aerials</span>
+                <span class="feature-tag">Boost Management</span>
+                <span class="feature-tag">Defensive Positioning</span>
+            </div>
+            <a class="btn" href="https://rocket-analytics-tools.github.io/crown-ai/">View Tool →</a>
+        </div>
+
+        <div class="footer-meta">
+            Rocket Analytics Tools — Collection of Performance Analyzers 2026
+        </div>
+    </div>
+</body>
+</html>
